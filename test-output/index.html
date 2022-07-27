@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Selenium_WorkSpace\PageObjectModelPractise\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="contactsTest">contactsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DealsPageTest" class="method navigator-link" hash-for-method="dealsLabelTest">dealsLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="dealsTest">dealsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="headerTextTest">headerTextTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="homePageTitleTest">homePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="logo">logo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ContactsPageTest" class="method navigator-link" hash-for-method="selectMultipleContactsTest">selectMultipleContactsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ContactsPageTest" class="method navigator-link" hash-for-method="selectSingleContactTest">selectSingleContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.TasksPageTest" class="method navigator-link" hash-for-method="tasksLabelTest">tasksLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.HomePageTest" class="method navigator-link" hash-for-method="tasksTest">tasksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ContactsPageTest" class="method navigator-link" hash-for-method="validateCreatNewContactTest(Mrs., Kemy, Jivani, Apple)">validateCreatNewContactTest(Mrs., Kemy, Jivani, Apple)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ContactsPageTest" class="method navigator-link" hash-for-method="validateCreatNewContactTest(Miss, Niyati, Moradia, Google)">validateCreatNewContactTest(Miss, Niyati, Moradia, Google)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ContactsPageTest" class="method navigator-link" hash-for-method="validateCreatNewContactTest(Dr., Dhruvik, Jivani, Fortis)">validateCreatNewContactTest(Dr., Dhruvik, Jivani, Fortis)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ContactsPageTest" class="method navigator-link" hash-for-method="validateCreatNewContactTest(Mr., Kishan, Jivani, Conestoga)">validateCreatNewContactTest(Mr., Kishan, Jivani, Conestoga)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DealsPageTest" class="method navigator-link" hash-for-method="validateNewDealsTest(Food, Nestle, Rohit Shetty, Old, Partner)">validateNewDealsTest(Food, Nestle, Rohit Shetty, Old, Partner)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DealsPageTest" class="method navigator-link" hash-for-method="validateNewDealsTest(Gadgets, Apple, Kemy Jivani, New, Referral)">validateNewDealsTest(Gadgets, Apple, Kemy Jivani, New, Referral)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DealsPageTest" class="method navigator-link" hash-for-method="validateNewDealsTest(Search Engine, Google, Niyati Mordia, Opportunity, Online)">validateNewDealsTest(Search Engine, Google, Niyati Mordia, Opportunity, Online)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DealsPageTest" class="method navigator-link" hash-for-method="validateNewDealsTest(College, Conestoga, Kishan Jivani, Opportunity, Existing Customer)">validateNewDealsTest(College, Conestoga, Kishan Jivani, Opportunity, Existing Customer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DealsPageTest" class="method navigator-link" hash-for-method="validateNewDealsTest(Hospital, Fortis, Dhruvik Jivani, Priority, Partner)">validateNewDealsTest(Hospital, Fortis, Dhruvik Jivani, Priority, Partner)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.TasksPageTest" class="method navigator-link" hash-for-method="validatenewTasksTest(Surgery, High)">validatenewTasksTest(Surgery, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.TasksPageTest" class="method navigator-link" hash-for-method="validatenewTasksTest(Teach, Normal)">validatenewTasksTest(Teach, Normal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.TasksPageTest" class="method navigator-link" hash-for-method="validatenewTasksTest(Search, Normal)">validatenewTasksTest(Search, Normal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.TasksPageTest" class="method navigator-link" hash-for-method="validatenewTasksTest(Launch, High)">validatenewTasksTest(Launch, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ContactsPageTest" class="method navigator-link" hash-for-method="verifyContactsLabelTest">verifyContactsLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logo">
+                  </a> <!-- logo -->
+                  <span class="method-name">logo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TasksPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tasksLabelTest">
+                  </a> <!-- tasksLabelTest -->
+                  <span class="method-name">tasksLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatenewTasksTest(Surgery, High)">
+                  </a> <!-- validatenewTasksTest(Surgery, High) -->
+                  <span class="method-name">validatenewTasksTest</span>
+                  <span class="parameters">(Surgery, High)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatenewTasksTest(Teach, Normal)">
+                  </a> <!-- validatenewTasksTest(Teach, Normal) -->
+                  <span class="method-name">validatenewTasksTest</span>
+                  <span class="parameters">(Teach, Normal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatenewTasksTest(Search, Normal)">
+                  </a> <!-- validatenewTasksTest(Search, Normal) -->
+                  <span class="method-name">validatenewTasksTest</span>
+                  <span class="parameters">(Search, Normal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatenewTasksTest(Launch, High)">
+                  </a> <!-- validatenewTasksTest(Launch, High) -->
+                  <span class="method-name">validatenewTasksTest</span>
+                  <span class="parameters">(Launch, High)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.DealsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dealsLabelTest">
+                  </a> <!-- dealsLabelTest -->
+                  <span class="method-name">dealsLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNewDealsTest(Food, Nestle, Rohit Shetty, Old, Partner)">
+                  </a> <!-- validateNewDealsTest(Food, Nestle, Rohit Shetty, Old, Partner) -->
+                  <span class="method-name">validateNewDealsTest</span>
+                  <span class="parameters">(Food, Nestle, Rohit Shetty, Old, Partner)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNewDealsTest(Gadgets, Apple, Kemy Jivani, New, Referral)">
+                  </a> <!-- validateNewDealsTest(Gadgets, Apple, Kemy Jivani, New, Referral) -->
+                  <span class="method-name">validateNewDealsTest</span>
+                  <span class="parameters">(Gadgets, Apple, Kemy Jivani, New, Referral)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNewDealsTest(Search Engine, Google, Niyati Mordia, Opportunity, Online)">
+                  </a> <!-- validateNewDealsTest(Search Engine, Google, Niyati Mordia, Opportunity, Online) -->
+                  <span class="method-name">validateNewDealsTest</span>
+                  <span class="parameters">(Search Engine, Google, Niyati Mordia, Opportunity, Online)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNewDealsTest(College, Conestoga, Kishan Jivani, Opportunity, Existing Customer)">
+                  </a> <!-- validateNewDealsTest(College, Conestoga, Kishan Jivani, Opportunity, Existing Customer) -->
+                  <span class="method-name">validateNewDealsTest</span>
+                  <span class="parameters">(College, Conestoga, Kishan Jivani, Opportunity, Existing Customer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNewDealsTest(Hospital, Fortis, Dhruvik Jivani, Priority, Partner)">
+                  </a> <!-- validateNewDealsTest(Hospital, Fortis, Dhruvik Jivani, Priority, Partner) -->
+                  <span class="method-name">validateNewDealsTest</span>
+                  <span class="parameters">(Hospital, Fortis, Dhruvik Jivani, Priority, Partner)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ContactsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMultipleContactsTest">
+                  </a> <!-- selectMultipleContactsTest -->
+                  <span class="method-name">selectMultipleContactsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectSingleContactTest">
+                  </a> <!-- selectSingleContactTest -->
+                  <span class="method-name">selectSingleContactTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreatNewContactTest(Mrs., Kemy, Jivani, Apple)">
+                  </a> <!-- validateCreatNewContactTest(Mrs., Kemy, Jivani, Apple) -->
+                  <span class="method-name">validateCreatNewContactTest</span>
+                  <span class="parameters">(Mrs., Kemy, Jivani, Apple)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreatNewContactTest(Miss, Niyati, Moradia, Google)">
+                  </a> <!-- validateCreatNewContactTest(Miss, Niyati, Moradia, Google) -->
+                  <span class="method-name">validateCreatNewContactTest</span>
+                  <span class="parameters">(Miss, Niyati, Moradia, Google)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreatNewContactTest(Dr., Dhruvik, Jivani, Fortis)">
+                  </a> <!-- validateCreatNewContactTest(Dr., Dhruvik, Jivani, Fortis) -->
+                  <span class="method-name">validateCreatNewContactTest</span>
+                  <span class="parameters">(Dr., Dhruvik, Jivani, Fortis)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreatNewContactTest(Mr., Kishan, Jivani, Conestoga)">
+                  </a> <!-- validateCreatNewContactTest(Mr., Kishan, Jivani, Conestoga) -->
+                  <span class="method-name">validateCreatNewContactTest</span>
+                  <span class="parameters">(Mr., Kishan, Jivani, Conestoga)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactsLabelTest">
+                  </a> <!-- verifyContactsLabelTest -->
+                  <span class="method-name">verifyContactsLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactsTest">
+                  </a> <!-- contactsTest -->
+                  <span class="method-name">contactsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dealsTest">
+                  </a> <!-- dealsTest -->
+                  <span class="method-name">dealsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="headerTextTest">
+                  </a> <!-- headerTextTest -->
+                  <span class="method-name">headerTextTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitleTest">
+                  </a> <!-- homePageTitleTest -->
+                  <span class="method-name">homePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tasksTest">
+                  </a> <!-- tasksTest -->
+                  <span class="method-name">tasksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Selenium_WorkSpace\PageObjectModelPractise\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.ContactsPageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.DealsPageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.TasksPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'testcases.LoginPageTest')
+data.setCell(0, 3, 12528);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateCreatNewContactTest')
+data.setCell(1, 2, 'testcases.ContactsPageTest')
+data.setCell(1, 3, 2042);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateNewDealsTest')
+data.setCell(2, 2, 'testcases.DealsPageTest')
+data.setCell(2, 3, 2007);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateNewDealsTest')
+data.setCell(3, 2, 'testcases.DealsPageTest')
+data.setCell(3, 3, 1913);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateCreatNewContactTest')
+data.setCell(4, 2, 'testcases.ContactsPageTest')
+data.setCell(4, 3, 1742);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validatenewTasksTest')
+data.setCell(5, 2, 'testcases.TasksPageTest')
+data.setCell(5, 3, 1712);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateNewDealsTest')
+data.setCell(6, 2, 'testcases.DealsPageTest')
+data.setCell(6, 3, 1702);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateCreatNewContactTest')
+data.setCell(7, 2, 'testcases.ContactsPageTest')
+data.setCell(7, 3, 1683);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateCreatNewContactTest')
+data.setCell(8, 2, 'testcases.ContactsPageTest')
+data.setCell(8, 3, 1640);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateNewDealsTest')
+data.setCell(9, 2, 'testcases.DealsPageTest')
+data.setCell(9, 3, 1594);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validatenewTasksTest')
+data.setCell(10, 2, 'testcases.TasksPageTest')
+data.setCell(10, 3, 1589);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateNewDealsTest')
+data.setCell(11, 2, 'testcases.DealsPageTest')
+data.setCell(11, 3, 1582);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validatenewTasksTest')
+data.setCell(12, 2, 'testcases.TasksPageTest')
+data.setCell(12, 3, 1576);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validatenewTasksTest')
+data.setCell(13, 2, 'testcases.TasksPageTest')
+data.setCell(13, 3, 1537);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'contactsTest')
+data.setCell(14, 2, 'testcases.HomePageTest')
+data.setCell(14, 3, 499);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'dealsTest')
+data.setCell(15, 2, 'testcases.HomePageTest')
+data.setCell(15, 3, 496);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tasksTest')
+data.setCell(16, 2, 'testcases.HomePageTest')
+data.setCell(16, 3, 469);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'selectMultipleContactsTest')
+data.setCell(17, 2, 'testcases.ContactsPageTest')
+data.setCell(17, 3, 443);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'selectSingleContactTest')
+data.setCell(18, 2, 'testcases.ContactsPageTest')
+data.setCell(18, 3, 225);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'headerTextTest')
+data.setCell(19, 2, 'testcases.HomePageTest')
+data.setCell(19, 3, 59);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'logo')
+data.setCell(20, 2, 'testcases.LoginPageTest')
+data.setCell(20, 3, 58);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyContactsLabelTest')
+data.setCell(21, 2, 'testcases.ContactsPageTest')
+data.setCell(21, 3, 37);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'dealsLabelTest')
+data.setCell(22, 2, 'testcases.DealsPageTest')
+data.setCell(22, 3, 28);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'tasksLabelTest')
+data.setCell(23, 2, 'testcases.TasksPageTest')
+data.setCell(23, 3, 21);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginPageTitleTest')
+data.setCell(24, 2, 'testcases.LoginPageTest')
+data.setCell(24, 3, 9);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'homePageTitleTest')
+data.setCell(25, 2, 'testcases.HomePageTest')
+data.setCell(25, 3, 3);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">4143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4154 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logo</span>
+                <span class="method-start">8547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">12997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25526 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitleTest</span>
+                <span class="method-start">42412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">headerTextTest</span>
+                <span class="method-start">59421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59481 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">60378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">contactsTest</span>
+                <span class="method-start">76501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77000 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">77691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dealsTest</span>
+                <span class="method-start">93889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94386 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tasksTest</span>
+                <span class="method-start">111200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111670 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ContactsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">112474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactsLabelTest</span>
+                <span class="method-start">128996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">129033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">129803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectSingleContactTest</span>
+                <span class="method-start">146435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">146662 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">147414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectMultipleContactsTest</span>
+                <span class="method-start">164023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">164467 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">165688 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCreatNewContactTest(Miss, Niyati, Moradia, Google)</span>
+                <span class="method-start">182202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">184246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">185028 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCreatNewContactTest(Dr., Dhruvik, Jivani, Fortis)</span>
+                <span class="method-start">201641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">203281 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">203979 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCreatNewContactTest(Mrs., Kemy, Jivani, Apple)</span>
+                <span class="method-start">220456 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">222200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">222994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCreatNewContactTest(Mr., Kishan, Jivani, Conestoga)</span>
+                <span class="method-start">239600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">241285 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DealsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">242075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dealsLabelTest</span>
+                <span class="method-start">258758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">258786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">259601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNewDealsTest(Food, Nestle, Rohit Shetty, Old, Partner)</span>
+                <span class="method-start">276185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">278099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">278903 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNewDealsTest(Gadgets, Apple, Kemy Jivani, New, Referral)</span>
+                <span class="method-start">295538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">297133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">297938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNewDealsTest(Search Engine, Google, Niyati Mordia, Opportunity, Online)</span>
+                <span class="method-start">314540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">316547 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">317337 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNewDealsTest(College, Conestoga, Kishan Jivani, Opportunity, Existing Customer)</span>
+                <span class="method-start">334409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">336112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">336927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNewDealsTest(Hospital, Fortis, Dhruvik Jivani, Priority, Partner)</span>
+                <span class="method-start">353444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">355027 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TasksPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">355837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tasksLabelTest</span>
+                <span class="method-start">372377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">372400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">373211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatenewTasksTest(Search, Normal)</span>
+                <span class="method-start">389726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">391439 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">392246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatenewTasksTest(Surgery, High)</span>
+                <span class="method-start">408666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">410257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">411030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatenewTasksTest(Teach, Normal)</span>
+                <span class="method-start">428096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">429634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">430441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatenewTasksTest(Launch, High)</span>
+                <span class="method-start">447818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">449395 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

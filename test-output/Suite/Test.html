@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 26 14:22:36 PYT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>450 seconds (450212 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.HomePageTest.contactsTest()'><b>contactsTest</b><br>Test class: testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePageTest@74455848</td></tr>
+<tr>
+<td title='testcases.DealsPageTest.dealsLabelTest()'><b>dealsLabelTest</b><br>Test class: testcases.DealsPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.DealsPageTest@378542de</td></tr>
+<tr>
+<td title='testcases.HomePageTest.dealsTest()'><b>dealsTest</b><br>Test class: testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePageTest@74455848</td></tr>
+<tr>
+<td title='testcases.HomePageTest.headerTextTest()'><b>headerTextTest</b><br>Test class: testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePageTest@74455848</td></tr>
+<tr>
+<td title='testcases.HomePageTest.homePageTitleTest()'><b>homePageTitleTest</b><br>Test class: testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePageTest@74455848</td></tr>
+<tr>
+<td title='testcases.LoginPageTest.login()'><b>login</b><br>Test class: testcases.LoginPageTest</td>
+<td></td>
+<td>12</td>
+<td>testcases.LoginPageTest@2e55dd0c</td></tr>
+<tr>
+<td title='testcases.LoginPageTest.loginPageTitleTest()'><b>loginPageTitleTest</b><br>Test class: testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginPageTest@2e55dd0c</td></tr>
+<tr>
+<td title='testcases.LoginPageTest.logo()'><b>logo</b><br>Test class: testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.LoginPageTest@2e55dd0c</td></tr>
+<tr>
+<td title='testcases.ContactsPageTest.selectMultipleContactsTest()'><b>selectMultipleContactsTest</b><br>Test class: testcases.ContactsPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.ContactsPageTest@e7edb54</td></tr>
+<tr>
+<td title='testcases.ContactsPageTest.selectSingleContactTest()'><b>selectSingleContactTest</b><br>Test class: testcases.ContactsPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.ContactsPageTest@e7edb54</td></tr>
+<tr>
+<td title='testcases.TasksPageTest.tasksLabelTest()'><b>tasksLabelTest</b><br>Test class: testcases.TasksPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.TasksPageTest@3738449f</td></tr>
+<tr>
+<td title='testcases.HomePageTest.tasksTest()'><b>tasksTest</b><br>Test class: testcases.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.HomePageTest@74455848</td></tr>
+<tr>
+<td title='testcases.ContactsPageTest.validateCreatNewContactTest()'><b>validateCreatNewContactTest</b><br>Test class: testcases.ContactsPageTest<br>Parameters: Miss, Niyati, Moradia, Google</td>
+<td></td>
+<td>2</td>
+<td>testcases.ContactsPageTest@e7edb54</td></tr>
+<tr>
+<td title='testcases.ContactsPageTest.validateCreatNewContactTest()'><b>validateCreatNewContactTest</b><br>Test class: testcases.ContactsPageTest<br>Parameters: Dr., Dhruvik, Jivani, Fortis</td>
+<td></td>
+<td>1</td>
+<td>testcases.ContactsPageTest@e7edb54</td></tr>
+<tr>
+<td title='testcases.ContactsPageTest.validateCreatNewContactTest()'><b>validateCreatNewContactTest</b><br>Test class: testcases.ContactsPageTest<br>Parameters: Mrs., Kemy, Jivani, Apple</td>
+<td></td>
+<td>1</td>
+<td>testcases.ContactsPageTest@e7edb54</td></tr>
+<tr>
+<td title='testcases.ContactsPageTest.validateCreatNewContactTest()'><b>validateCreatNewContactTest</b><br>Test class: testcases.ContactsPageTest<br>Parameters: Mr., Kishan, Jivani, Conestoga</td>
+<td></td>
+<td>1</td>
+<td>testcases.ContactsPageTest@e7edb54</td></tr>
+<tr>
+<td title='testcases.DealsPageTest.validateNewDealsTest()'><b>validateNewDealsTest</b><br>Test class: testcases.DealsPageTest<br>Parameters: Food, Nestle, Rohit Shetty, Old, Partner</td>
+<td></td>
+<td>1</td>
+<td>testcases.DealsPageTest@378542de</td></tr>
+<tr>
+<td title='testcases.DealsPageTest.validateNewDealsTest()'><b>validateNewDealsTest</b><br>Test class: testcases.DealsPageTest<br>Parameters: Gadgets, Apple, Kemy Jivani, New, Referral</td>
+<td></td>
+<td>1</td>
+<td>testcases.DealsPageTest@378542de</td></tr>
+<tr>
+<td title='testcases.DealsPageTest.validateNewDealsTest()'><b>validateNewDealsTest</b><br>Test class: testcases.DealsPageTest<br>Parameters: Search Engine, Google, Niyati Mordia, Opportunity, Online</td>
+<td></td>
+<td>2</td>
+<td>testcases.DealsPageTest@378542de</td></tr>
+<tr>
+<td title='testcases.DealsPageTest.validateNewDealsTest()'><b>validateNewDealsTest</b><br>Test class: testcases.DealsPageTest<br>Parameters: College, Conestoga, Kishan Jivani, Opportunity, Existing Customer</td>
+<td></td>
+<td>1</td>
+<td>testcases.DealsPageTest@378542de</td></tr>
+<tr>
+<td title='testcases.DealsPageTest.validateNewDealsTest()'><b>validateNewDealsTest</b><br>Test class: testcases.DealsPageTest<br>Parameters: Hospital, Fortis, Dhruvik Jivani, Priority, Partner</td>
+<td></td>
+<td>1</td>
+<td>testcases.DealsPageTest@378542de</td></tr>
+<tr>
+<td title='testcases.TasksPageTest.validatenewTasksTest()'><b>validatenewTasksTest</b><br>Test class: testcases.TasksPageTest<br>Parameters: Search, Normal</td>
+<td></td>
+<td>1</td>
+<td>testcases.TasksPageTest@3738449f</td></tr>
+<tr>
+<td title='testcases.TasksPageTest.validatenewTasksTest()'><b>validatenewTasksTest</b><br>Test class: testcases.TasksPageTest<br>Parameters: Surgery, High</td>
+<td></td>
+<td>1</td>
+<td>testcases.TasksPageTest@3738449f</td></tr>
+<tr>
+<td title='testcases.TasksPageTest.validatenewTasksTest()'><b>validatenewTasksTest</b><br>Test class: testcases.TasksPageTest<br>Parameters: Teach, Normal</td>
+<td></td>
+<td>1</td>
+<td>testcases.TasksPageTest@3738449f</td></tr>
+<tr>
+<td title='testcases.TasksPageTest.validatenewTasksTest()'><b>validatenewTasksTest</b><br>Test class: testcases.TasksPageTest<br>Parameters: Launch, High</td>
+<td></td>
+<td>1</td>
+<td>testcases.TasksPageTest@3738449f</td></tr>
+<tr>
+<td title='testcases.ContactsPageTest.verifyContactsLabelTest()'><b>verifyContactsLabelTest</b><br>Test class: testcases.ContactsPageTest</td>
+<td></td>
+<td>0</td>
+<td>testcases.ContactsPageTest@e7edb54</td></tr>
+</table><p>
+</body>
+</html>
